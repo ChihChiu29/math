@@ -1,0 +1,97 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3437,         87]
+NotebookOptionsPosition[      2732,         66]
+NotebookOutlinePosition[      3141,         82]
+CellTagsIndexPosition[      3098,         79]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"symbols", " ", "=", " ", 
+  RowBox[{"FinancialData", "[", "]"}]}]], "Input",
+ CellChangeTimes->{{3.923001057716175*^9, 3.9230010806598625`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"dcd7853c-f971-3647-bcb8-e6c225ceb577"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{"{", 
+       RowBox[{
+        "\"AMEX:AAMC\"", ",", "\"AMEX:AAU\"", ",", "\"AMEX:ACU\"", ",", 
+         "\"AMEX:ADRT\"", ",", "\"AMEX:ADRT-U\"", ",", "\"AMEX:AE\"", ",", 
+         "\"AMEX:AEF\"", ",", "\"AMEX:AEON\"", ",", "\"AMEX:AEON-WS\"", ",", 
+         "\"AMEX:AGE\"", ",", "\"AMEX:AIM\"", ",", "\"AMEX:AINC\"", ",", 
+         "\"AMEX:AIRI\"", ",", "\"AMEX:AMBI\"", ",", "\"AMEX:AMBI-WS\"", ",", 
+         "\"AMEX:AMBO\"", ",", "\"AMEX:AMPE\"", ",", "\"AMEX:AMS\"", ",", 
+         TemplateBox[{"58113"}, "OutputSizeLimit`Skeleton"], ",", "\"^NKY\"", 
+         ",", "\"^NZD\"", ",", "\"^OBX\"", ",", "\"^PX1\"", ",", "\"^RTS\"", 
+         ",", "\"^SENSEX\"", ",", "\"^SET50\"", ",", "\"^SMI\"", ",", 
+         "\"^SX5E\"", ",", "\"^TOPX\"", ",", "\"^TWII\"", ",", "\"^VALUA\"", 
+         ",", "\"^VALUG\"", ",", "\"^VDAX\"", ",", "\"^VSTX\"", ",", 
+         "\"^XAO\"", ",", "\"^XJO\"", ",", "\"^XOI\""}], "}"}], 
+     Short[#, 8]& ], "line" -> 2, "sessionID" -> 28247569345243771557, 
+   "byteCount" -> 2562376, "size" -> 8, "stored" -> False, "expr" -> 
+   Missing["NotStored"], "wrap" -> OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{{3.923001067375477*^9, 3.9230010813890095`*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"fa64abba-17cd-a943-9932-3097c599b3ce"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"symbols", ",", "\"\<NASDAQ:GOOG\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.9230011208660583`*^9, 3.923001139182478*^9}, {
+  3.923001386148123*^9, 3.923001400772045*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"d670d252-8391-ec47-9b3a-5cbd387b1013"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.9230014013554153`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"8eb3182b-6f2e-8748-b3bd-f256553358b0"]
+}, Open  ]]
+},
+WindowSize->{573.75, 630},
+WindowMargins->{{173.625, Automatic}, {6, Automatic}},
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"aadef11f-9596-6c4c-a3ab-c8e15a14e66e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 246, 4, 28, "Input",ExpressionUUID->"dcd7853c-f971-3647-bcb8-e6c225ceb577"],
+Cell[829, 28, 1392, 21, 165, "Output",ExpressionUUID->"fa64abba-17cd-a943-9932-3097c599b3ce"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2258, 54, 302, 5, 28, "Input",ExpressionUUID->"d670d252-8391-ec47-9b3a-5cbd387b1013"],
+Cell[2563, 61, 153, 2, 32, "Output",ExpressionUUID->"8eb3182b-6f2e-8748-b3bd-f256553358b0"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
